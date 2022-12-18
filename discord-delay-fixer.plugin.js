@@ -9,6 +9,7 @@
  * @website https://github.com/John-Dean/DiscordDelayFixer
  */
 const audio_file = new Audio('/assets/dd920c06a01e5bb8b09678581e29d56f.mp3');
+//Audio file name lifted from list here: https://github.com/xXNightOPXx/-Darkz-BetterDiscord-V4.0/blob/e145240242246950a8f381d8ca1a550d2c17d606/Darkz%20Plugins%20%7BV4.0%7D%20Fixed/NotificationSounds.plugin.js#L72
 
 module.exports = (() => {
 	const config = {
