@@ -110,7 +110,7 @@ module.exports = (() => {
 
 				stop(){
 					try{
-						clearTimeout(timer);
+						clearInterval(timer);
 					} catch(error){}
 				}
 
