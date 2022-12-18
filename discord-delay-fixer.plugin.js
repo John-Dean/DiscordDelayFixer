@@ -4,9 +4,9 @@
  * @authorId 241604896925679617
  * @description Stops notification sound delay by continually playing sounds to keep the audio engine active. Fixes delay when muting/unmuting or when using PTT
  * @version 2.2.0
- * @updateUrl https://raw.githubusercontent.com/X/discord-delay-fixer.plugin.js
- * @source https://raw.githubusercontent.com/X/Plugins/discord-delay-fixer.plugin.js
- * @website https://github.com/X/Plugins/discord-delay-fixer.plugin.js
+ * @updateUrl https://raw.githubusercontent.com/John-Dean/DiscordDelayFixer/master/discord-delay-fixer.plugin.js
+ * @source https://raw.githubusercontent.com/John-Dean/DiscordDelayFixer/master/discord-delay-fixer.plugin.js
+ * @website https://github.com/John-Dean/DiscordDelayFixer
  */
 const audio_file = new Audio('/assets/dd920c06a01e5bb8b09678581e29d56f.mp3');
 
@@ -21,8 +21,8 @@ module.exports = (() => {
 			}],
 			version: '1.0.0',
 			description: 'Stops notification sound delay by continually playing sounds to keep the audio engine active. Fixes delay when muting/unmuting or when using PTT',
-			github: '',
-			github_raw: ''
+			github: 'https://github.com/John-Dean/DiscordDelayFixer',
+			github_raw: 'https://raw.githubusercontent.com/John-Dean/DiscordDelayFixer/master/discord-delay-fixer.plugin.js'
 		},
 		version: '1.0.0',
 		changelogItems: [
@@ -48,7 +48,7 @@ module.exports = (() => {
 			value: 500,
 			min: 100,
 			max: 2000,
-			markers: Array.from(Array(11), (_, i) => 10 * i),
+			markers: Array.from(Array(20), (_, i) => 100 + (100 * i)),
 			stickToMarkers: true
 		}]
 	};
