@@ -3,7 +3,7 @@
  * @author John#0142
  * @authorId 241604896925679617
  * @description Stops notification sound delay by continually playing sounds to keep the audio engine active. Fixes delay when muting/unmuting or when using PTT
- * @version 2.2.0
+ * @version 1.0.0
  * @updateUrl https://raw.githubusercontent.com/John-Dean/DiscordDelayFixer/master/discorddelayfixer.plugin.js
  * @source https://raw.githubusercontent.com/John-Dean/DiscordDelayFixer/master/discorddelayfixer.plugin.js
  * @website https://github.com/John-Dean/DiscordDelayFixer
@@ -20,16 +20,16 @@ module.exports = (() => {
 				discord_id: '241604896925679617',
 				github_username: 'John-Dean'
 			}],
-			version: '1.0.1',
+			version: '1.0.0',
 			description: 'Stops notification sound delay by continually playing sounds to keep the audio engine active. Fixes delay when muting/unmuting or when using PTT',
 			github: 'https://github.com/John-Dean/DiscordDelayFixer',
 			github_raw: 'https://raw.githubusercontent.com/John-Dean/DiscordDelayFixer/master/discorddelayfixer.plugin.js'
 		},
-		version: '1.0.1',
+		version: '1.0.0',
 		changelogItems: [
 			{
-				version: '1.0.1',
-				title: 'v1.0.1',
+				version: '1.0.0',
+				title: 'v1.0.0',
 				type: 'added',
 				items: [
 					'Initial release'
