@@ -100,6 +100,7 @@ module.exports = (() => {
 					function playSound(sound){
 						sound.volume = 0.1
 						sound.currentTime = 0
+						sound.playbackRate = 0.01;
 						sound.play(sound)
 					}
 					
